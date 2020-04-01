@@ -1,0 +1,9 @@
+<h1>Club House</h1>
+
+<% @posts.each do |x| %>
+<h2><%=  x.title %></h2>
+<% if logged_in? %>
+  <h3><%= x.user.name %></h3>
+<% end %>
+<p><%= x.content %></p>
+<% end %>

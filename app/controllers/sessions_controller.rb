@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     if user && user.authenticate(params[:session][:password])
       log_in_user(user)
       remember(user)
-      redirect_to feed_path
+      redirect_to posts_path
     else
       
     end
@@ -15,5 +15,6 @@ class SessionsController < ApplicationController
 
   def delete
     log_out(current_user)
+    redirect_to root_path
   end
 end
