@@ -1,5 +1,5 @@
 <h1>Login</h1>
-
+<%= flash[:danger] %>
 <%= form_for(:session, url: login_path)  do |f| %>
   <div class="form-group">
     <%= f.label :email%>
