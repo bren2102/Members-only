@@ -1,3 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#mkt-suggestion {
+  border: 1px solid black;
+  background: rgb(191, 237, 255);
+  font-size: 12px;
+  border-radius: 7px;
+  padding: 10px;
+  color: black;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
