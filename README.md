@@ -1,24 +1,39 @@
-# README
+# Member's Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this applicaiton only signed in users are able to see who wrote the post. This is a ruby on rails based application where we developed our own sessions system in order to login, logout, remember and filter specific content by middleware.
 
-Things you may want to cover:
+# Requirements
 
-* Ruby version
+- Ruby > 2.5
+- Ruby on Rails > 5.2
+- Rubocop
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Ruby on Rails
 
-* Database creation
+## Author
 
-* Database initialization
+👤 **Diego Antonio Reyes Coronado**
 
-* How to run the test suite
+- Github: [@xtrmdarc](https://github.com/xtrmdarc)
+- Twitter: [@diegoreyesco](https://twitter.com/DiegoAn91629127)
+- Linkedin: [diegoreyesco](https://www.linkedin.com/in/diego-reyes-coronado-7a7189b7/)
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Brenda Yucra**
 
-* Deployment instructions
+- Github: [@bren2102](https://github.com/bren2102) 
+- Twitter: [@BrendaYucra2](https://twitter.com/BrendaYucra)
+- Linkedin: [Brenda Yucra](https://www.linkedin.com/in/brenda-yucra-51980681/)
 
-* ...
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
